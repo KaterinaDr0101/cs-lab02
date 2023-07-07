@@ -6,5 +6,5 @@ int main()
 	int A, B;
 	cin >> A >> B;
 	cout << "A + B = " << A + B << '\n'
-		 << "A - B = " << A - B << '\n';//комментарий
+		<< "A - B = " << A - B << '\n';
 }
