@@ -1,4 +1,5 @@
 ﻿#include <iostream>
+#include <algorithm>
 using namespace std;
 int main()
 {
@@ -8,5 +9,7 @@ int main()
 	cout << "A + B = " << A + B << '\n'
 		<< "A - B = " << A - B << '\n'
 		<< "A * B = " << A * B << '\n'
-		<< "A / B = " << A / B << '\n';
+		<< "A / B = " << A / B << '\n'
+		<<"Max: " << max(A, B);
+
 }
